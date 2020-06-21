@@ -20,7 +20,7 @@
     "pg-hstore": "^2.3.3",
     "sequelize": "^5.21.8",
     "uuid": "^8.1.0",
-    "fs-extra": "^8.1.0",
+    "fs-extra": "^9.0.1",
     "geostats": "^1.8.0",
     "lodash": "^4.17.15",
     "shapefile": "^0.6.6",
