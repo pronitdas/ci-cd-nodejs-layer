@@ -36,3 +36,10 @@ jobs:
          yarn --production
          cd ..
          zip -r /tmp/lambda-layer.zip nodejs
+    - name: Deploy to Aws
+      run: |
+        aws lambda publish-layer-version --layer-name "geonode-layer" \
+        --description "NodeJS module for geo and postgres library" \
+        --license-info "MIT" \
+        --compatible-runtimes "nodejs12.x" \
+        --zip-file "fileb:////tmp/lambda-layer.zip"
