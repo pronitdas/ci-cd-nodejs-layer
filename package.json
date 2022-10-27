@@ -28,7 +28,7 @@
     "unzipper": "^0.10.10"
   },
   "devDependencies": {
-    "sequelize-cli": "^5.5.1",
+    "sequelize-cli": "^6.5.2",
     "serverless": "^3.1.0",
     "serverless-offline": "^11.1.1"
   }
