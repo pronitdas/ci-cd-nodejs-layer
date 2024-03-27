@@ -24,7 +24,7 @@
     "geostats": "^2.1.0",
     "lodash": "^4.17.15",
     "shapefile": "^0.6.6",
-    "shpjs": "^4.0.4",
+    "shpjs": "^5.0.0",
     "unzipper": "^0.10.10"
   },
   "devDependencies": {
